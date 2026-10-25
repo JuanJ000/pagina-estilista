@@ -51,7 +51,7 @@ nav a:hover{
 /* ----------------------------------------------------------------- */
 
 main{
-  background-color: var(--color-principal);
+  /* background-color: var(--color-principal); */
   height: 89vh;
   color: var(--letras);
   display: flex;
