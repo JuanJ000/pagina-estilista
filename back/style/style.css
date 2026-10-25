@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* colores */
+:root{
+    --letras: #f4f1f1;
+    --color-principal:#030303;
+    --color-segundario:#9b6c40;
+}
+/* -----------------------header------------------------------------------- */
+/* ------------------------------------------------------------------------ */
+header{
+    background-color:var(--color-principal);
+    max-width: 100%;
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+
+header span{
+    background-color: #1805eb;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+}
+header nav ul a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: var(--letras);
+}
+nav a:hover{
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--color-segundario);
+    color: var(--letras);
+}
+.botom{
+    text-decoration: none;
+    border: 0 solid ;
+    border-radius: 5px;
+    background-color: var(--color-segundario);
+    padding: 8px 15px;
+    color: var(--letras);
+}
+
+/*------------------ main------------------------------------------- */
+/* ----------------------------------------------------------------- */
+
+main{
+  background-color: var(--color-principal);
+  height: 89vh;
+  color: var(--letras);
+  display: flex;
+}
+
+.presentacion{
+    background-color: var(--color-principal);
+    width: 50%;
+    height: 100%;
+}
+
+.presentacion .presentacion-texto{
+    height: 85%;
+    margin: 60px 20px 20px 40px;
+}
+.presentacion-texto h4{
+    color: var(--letras);
+    font-size: 25px;
+    padding: 40px 0 0 80px;
+}
+
+.presentacion-texto h1{
+    color: var(--letras);
+    padding: 10px 0 0 80px;
+    font-size: 14vh;
+}
+.presentacion-texto h1 div{
+    color: var(--color-segundario);
+}
+
+.presentacion-texto p{
+    color: var(--letras);
+    padding: 10px 0 0 80px;
+    font-size: 25px;
+}
+
+.botones{
+    padding: 50px 0 0 80px;
+    list-style: none;
+    font-size: 15px;
+}
+
+.botones a{
+    padding: 15px 25px;
+    margin-right: 10px;
+    background-color: #030303;
+    border-radius: 10px;
+    border: 1px solid var(--color-segundario);
+}
+
+.botones .botom-uno{
+    background: var(--color-segundario);
+    text-decoration: none;
+    color: var(--letras);
+    border-radius: 10px;   
+}
+
+.botones a:hover{
+    background: darkgray;  
+}
+
+.imagen-presentacion{
+    width: 50%;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
